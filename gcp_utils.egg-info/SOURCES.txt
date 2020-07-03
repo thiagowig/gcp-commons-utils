@@ -1,9 +1,0 @@
-README.md
-setup.py
-gcp-utils/__init__.py
-gcp-utils/decode.py
-gcp_utils.egg-info/PKG-INFO
-gcp_utils.egg-info/SOURCES.txt
-gcp_utils.egg-info/dependency_links.txt
-gcp_utils.egg-info/requires.txt
-gcp_utils.egg-info/top_level.txt

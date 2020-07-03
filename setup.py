@@ -10,12 +10,12 @@ with open(os.path.join(HERE, "README.md")) as fid:
 
 # This call to setup() does all the work
 setup(
-    name="gcp-utils",
+    name="gcp-commons-utils",
     version="0.0.1",
     description="Utils to be used along Google Cloud Platform components",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/thiagowig/gcp-utils",
+    url="https://github.com/thiagowig/gcp-commons-utils",
     author="Thiago Fonseca",
     author_email="dev.thiago@gmail.com",
     license="MIT",
@@ -24,7 +24,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["gcp-utils"],
+    packages=["gcp-commons-utils"],
     include_package_data=False,
     install_requires=["google-cloud-firestore"],
 )
