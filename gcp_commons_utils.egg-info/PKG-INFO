@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gcp-commons-utils
+Version: 0.0.1
+Summary: Utils to be used along Google Cloud Platform components
+Home-page: https://github.com/thiagowig/gcp-commons-utils
+Author: Thiago Fonseca
+Author-email: dev.thiago@gmail.com
+License: MIT
+Description: # gcp-commons-utils
+        Utils to be used along Google Cloud Platform components
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
