@@ -1,5 +1,5 @@
 import os.path
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # The directory containing this file
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -11,7 +11,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="gcp-commons-utils",
-    version="0.0.2",
+    version="0.1.0",
     description="Utils to be used along Google Cloud Platform components",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -24,7 +24,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["gcp-commons-utils"],
+    packages=find_packages(),
     include_package_data=False,
     install_requires=["google-cloud-firestore"],
 )
